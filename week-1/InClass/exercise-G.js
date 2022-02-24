@@ -4,10 +4,9 @@ const numberOfMentors = 8;
 
 const totalNumberOfClass = numberOfStudents + numberOfMentors
 
-const percentageStudents = Match.round(numberOfStudents*100/totalNumberOfClass)
+const percentageStudents = Math.round((numberOfStudents* 100)/totalNumberOfClass)
 console.log(percentageStudents)
 
-const percentageMentors = numberOfMentors*100/totalNumberOfClass
+const percentageMentors = Math.round((numberOfMentors* 100)/totalNumberOfClass)
 console.log(percentageMentors)
 
-const 
