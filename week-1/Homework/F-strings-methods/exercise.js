@@ -1,3 +1,3 @@
 // Start by creating a variable `message`
-const message = "Hello"
+const message = "Juan"
 console.log(message);
