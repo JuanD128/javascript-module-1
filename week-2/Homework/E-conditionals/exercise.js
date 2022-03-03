@@ -6,9 +6,14 @@
   If Daniel is a student, print out "Hi, I'm Daniel, I'm a student."
 */
 
-var name = "Daniel";
-var danielsRole = "mentor";
-
+const name = "Daniel";
+const danielsRole = "mentor";
+if (danielsRole = true){
+return `Hi, I'm ${name}, I'm a mentor.`
+}else (danielsRole != true) {
+  return `Hi, I'm ${name}, I'm a student`
+}
+console.log("mentor");
 /* 
 EXPECTED RESULT
 ---------------
