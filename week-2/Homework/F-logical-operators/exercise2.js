@@ -5,7 +5,29 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(num) {
+  if (num < 0){
+    return true
+  }
+}
+function isBetween5and10(num){
+  if (num >= 5 && <= 10){
+    return true
+  }else {
+    return false
+  }
+}
+function isShortName(text){
+  const name = "Daniel"
+if (name.lenght <= 6);
+return true
+} 
+
+function startsWithD(name){
+if (name.charAt(0) === D){
+  return true
+}
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
