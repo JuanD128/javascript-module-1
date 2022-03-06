@@ -7,6 +7,11 @@
 */
 
 function negativeOrPositive(number) {
+if (number >= 0){
+return "positive";
+}
+else (number < 0)
+return "negative"
 
 }
 
@@ -28,3 +33,4 @@ console.log(number3 + " is " + negativeOrPositive(number3));
   -1 is negative
   0 is positive
 */
+
