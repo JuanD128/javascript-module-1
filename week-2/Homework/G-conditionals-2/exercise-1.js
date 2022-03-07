@@ -7,30 +7,31 @@
 */
 
 function negativeOrPositive(number) {
-if (number >= 0){
-return "positive";
+  if (number >= 0){
+  return "positive";
+  }
+  else { 
+  return "negative"
+  }
 }
-else (number < 0)
-return "negative"
-
-}
-
-/* 
-  DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
-var number1 = 5;
-var number2 = -1;
-var number3 = 0;
-
-console.log(number1 + " is " + negativeOrPositive(number1));
-console.log(number2 + " is " + negativeOrPositive(number2));
-console.log(number3 + " is " + negativeOrPositive(number3));
-
-/* 
-  EXPECTED RESULT
-  ---------------
-  5 is positive
-  -1 is negative
-  0 is positive
-*/
-
+  
+  /* 
+    DO NOT EDIT BELOW THIS LINE
+    --------------------------- */
+  var number1 = 5;
+  var number2 = -1;
+  var number3 = 0;
+  
+  console.log(number1 + " is " + negativeOrPositive(number1));
+  console.log(number2 + " is " + negativeOrPositive(number2));
+  console.log(number3 + " is " + negativeOrPositive(number3));
+  
+  /* 
+    EXPECTED RESULT
+    ---------------
+    5 is positive
+    -1 is negative
+    0 is positive
+  */
+  
+  

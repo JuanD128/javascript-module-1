@@ -1,3 +1,4 @@
+
 /*
   Conditionals
   ---------------------------------
@@ -8,12 +9,13 @@
 
 const name = "Daniel";
 const danielsRole = "mentor";
-if (danielsRole = true){
-return `Hi, I'm ${name}, I'm a mentor.`
-}else (danielsRole != true) {
-  return `Hi, I'm ${name}, I'm a student`
+
+if (danielsRole === "mentor"){
+console.log( `Hi, I'm ${name}, I'm a mentor.`)
+}else if (danielsRole != "mentor"){
+ console.log( `Hi, I'm ${name}, I'm a student`)
 }
-console.log("mentor");
+
 /* 
 EXPECTED RESULT
 ---------------

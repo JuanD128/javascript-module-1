@@ -5,33 +5,26 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative(num) {
-  if (num < 0){
-    return true
-  }
+function isNegative(number) {
+  return number < 0
 }
-function isBetween5and10(num){
-  if (num >= 5 && <= 10){
-    return true
-  }else {
-    return false
-  }
+function isBetween5and10(number){
+return number >= 5 && number <= 10;
 }
-function isShortName(text){
-  const name = "Daniel"
-if (name.lenght <= 6);
-return true
+function isShortName(person){
+const nameLength = person.length; 
+return nameLength <= 6
 } 
 
-function startsWithD(name){
-if (name.charAt(0) === D){
-  return true
-}
+function startsWithD(personName){
+const firstCharacter = personName[0]
+return firstCharacter === "D"
 }
 
+
 /* 
-  DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
+DO NOT EDIT BELOW THIS LINE
+--------------------------- */
 
 console.log("Is -10 is a negative number?", isNegative(-10));
 console.log("Is 5 a negative number?", isNegative(5));
@@ -40,11 +33,11 @@ console.log("Is Daniel a short name?", isShortName("Daniel"));
 console.log("Does Daniel start with 'D'?", startsWithD("Daniel"));
 
 /* 
-  EXPECTED RESULT
-  ---------------
-  Is -10 is a negative number? true
-  Is 5 a negative number? false
-  Is 10 in the range 5-10? true
-  Is Daniel a short name? true
-  Does Daniel start with 'D'? true
+EXPECTED RESULT
+---------------
+Is -10 is a negative number? true
+Is 5 a negative number? false
+Is 10 in the range 5-10? true
+Is Daniel a short name? true
+Does Daniel start with 'D'? true
 */

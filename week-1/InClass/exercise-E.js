@@ -7,6 +7,6 @@ console.log(greeting);
 const greetingStart2 = "Hello"
 const name2 = " Juan"
 
-const greeting2 = `${greetingStart2}, my name is ${name2}``
+const greeting2 = `${greetingStart2}, my name is ${name2}`
 
 console.log(greeting2)
