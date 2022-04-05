@@ -7,8 +7,14 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {}
-
+function capitalise(str) {
+ //var firstLetterToUpperCase = str.charAt(0).toUpperCase()
+ //return firstLetterToUpperCase + str.slice(1)
+var arrString = str.split("") 
+arrString[0] = arrString[0].toUpperCase()
+return arrString.join("")
+}
+//console.log("hola mundo".split(""));
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
